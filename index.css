@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.one{
+    font-size: larger;
+    justify-content: center;
+}
+.choice {
+    height: 400px;
+    display: inline-block;
+    width: 100px;
+    margin-left: 10%;
+
+   
+
+  }
+  
+  .result {
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .bar {
+    height: 0%;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .bar[data-choice="1"] {
+    background-color: red;
+  }
+  
+  .bar[data-choice="2"] {
+    background-color: green;
+  }
+  
+  .bar[data-choice="3"] {
+    background-color: blue;
+  }
+  
+  .label {
+    height: 70px;
+    text-align: center;
+  }
